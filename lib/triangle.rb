@@ -24,7 +24,7 @@ class Triangle
   def kind
     if valid_triangle?
       if @sides.uniq.length == 2
-        return :isoscoles
+        return :isosceles
       elsif @sides.uniq.length == 1 
         return :equilateral
       else
